@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Alexander Nimenko — Mechanical Design Engineer</title>
+<link href="assets/site.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="topbar"><div class="topbar-inner">
+<span class="brand"><a href="index.html">Alexander Nimenko</a></span>
+<nav>
+<a href="index.html#clients">Client projects</a>
+<a href="index.html#counter-uas">Counter-UAS</a>
+<a href="index.html#robotics">Robotics</a>
+<a href="index.html#vision">Vision</a>
+<a href="index.html#cad">Mechanics and CAD</a>
+<a href="index.html#software">Software</a>
+<a href="parts.html">All parts</a>
+
+</nav>
+</div></header>
+<div class="wrap">
+<section class="hero">
+<p class="eyebrow">Portfolio · updated 23 November 2026</p>
+<h1>Alexander Nimenko</h1>
+<p class="standfirst">Mechanical design engineer in Israel. Client projects — drone development, production equipment, filtration skids, precision stages — plus robotics and computer vision.</p>
+<p class="hero-meta"><span><a href="mailto:ledmax.od@gmail.com">ledmax.od@gmail.com</a></span><span><a href="https://www.linkedin.com/in/alex-nimenko-826a76214">LinkedIn</a></span><span><a href="https://github.com/Alexsensytiv">GitHub</a></span></p>
+<div class="hero-film">
+<video controls="" loop="" muted="" playsinline="" poster="media/video/rover-traverse.jpg" preload="metadata" src="media/video/rover-traverse.mp4"></video>
+</div>
+<p class="hero-caption">A 4×4 autonomous platform carrying a six-axis collaborative arm drives across grass under
+  its own control. Drive is a pair of hoverboard hub motors on FOC firmware; navigation runs
+  on a Raspberry Pi 5 with ROS 2.</p>
+<div class="metrics"><div class="metric"><b>15+</b><span>years in engineering</span></div><div class="metric"><b>2016</b><span>in Israeli industry since</span></div><div class="metric"><b>15+</b><span>client companies</span></div><div class="metric"><b>27</b><span>video clips</span></div></div>
+
+</section>
+<section class="block" id="clients">
+<span class="sec-num">01</span>
+<h2>Mechanical design for client companies</h2>
+<p class="lede">Since July 2021 I work through SensyTIV Technologies as an external mechanical engineer
+  for client companies, in their offices or remotely.</p>
+<div class="proj">
+<div class="proj-head"><h3>Evra — drone development</h3></div>
+<p class="loc">Sep – Nov 2026 · three-month project · at the Haifa office</p>
+<ul class="stack">
+<li>electric ducted fans (EDF)</li><li>10+ airframe concepts</li><li>carbon plate · aluminium tube · PLA</li>
+<li>waterjet 460×350 bed</li><li>Motion Analysis</li><li>3DEXPERIENCE</li><li>SolidWorks API</li>
+</ul>
+<p>Mechanical design of a drone driven by electric ducted fans. More than ten airframe
+    concepts were modelled — sheet and tube pyramid frames, a composite X-frame, a VTOL tail-sitter and
+    octagonal frames — and the chosen layouts were developed as configurations with different intake guards:
+    rotary and iris shutters, labyrinth and funnel-filter covers.</p>
+<p>Structures were designed for manufacture from the start: carbon plates nested within the waterjet
+    bed, aluminium tubes, and printed parts split to fit the printer. The last piece of work was a
+    folding-propeller sleeve that deploys without a servo: its mechanism was checked in SolidWorks Motion
+    Analysis up to 2000 rpm and released as a production package (STEP/STL, carbon DXF, BOM and an
+    assembly guide). Prototype build included making and machining parts, soldering and fitting
+    components.</p>
+<div class="shots">
+<figure class="shot"><img alt="Drone layout, light configuration" loading="lazy" src="media/img/clients/evra-config-light.jpg"/><figcaption>Drone layout, light configuration</figcaption></figure>
+<figure class="shot"><img alt="Drone with rotary intake covers" loading="lazy" src="media/img/clients/evra-config-rotary.jpg"/><figcaption>Configuration with rotary intake covers</figcaption></figure>
+<figure class="shot"><img alt="Drone with labyrinth intake covers" loading="lazy" src="media/img/clients/evra-config-labyrinth.jpg"/><figcaption>Configuration with labyrinth intake covers</figcaption></figure>
+</div>
+<div class="shots">
+<figure class="shot"><img alt="Folding-propeller sleeve: stowed, half and deployed" loading="lazy" src="media/img/clients/evra-propsleeve-overview.jpg"/><figcaption>Latest version: folding-propeller sleeve — stowed, half-open, deployed (Oct 2026)</figcaption></figure>
+<figure class="shot"><img alt="Labelled section of the propeller sleeve" loading="lazy" src="media/img/clients/evra-propsleeve-section.jpg"/><figcaption>Labelled section of the production prototype</figcaption></figure>
+</div>
+<div class="films">
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/evra-propsleeve-motion.jpg" preload="none" src="media/video/evra-propsleeve-motion.mp4"></video><figcaption>Motion analysis of the sleeve: deployment and stops at 2000 rpm</figcaption></figure>
+</div>
+<div class="shots">
+<figure class="shot"><img alt="Sheet-metal pyramid airframe concept" loading="lazy" src="media/img/clients/evra-frame-pyramid-sheet.jpg"/><figcaption>Early airframe concept: sheet pyramid frame</figcaption></figure>
+<figure class="shot"><img alt="Iris shutter for the ducted-fan intake, open and closed" loading="lazy" src="media/img/clients/evra-iris-shutter.jpg"/><figcaption>Iris shutter for the fan intake, open and closed</figcaption></figure>
+<figure class="shot"><img alt="Intake cover concepts" loading="lazy" src="media/img/clients/evra-covers-concept.jpg"/><figcaption>Intake-guard concepts</figcaption></figure>
+</div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>Jabil — X–Y stage production line</h3></div>
+<p class="loc">Jul 2022 – Nov 2024 · full-time in the project team Jul – Oct 2022</p>
+<ul class="stack"><li>X–Y stage</li><li>large assembly</li><li>SolidWorks</li><li>THK linear rails</li><li>bearing redesign</li><li>ATP</li></ul>
+<p>Member of the project team for the company's production equipment, an X–Y stage line: detail
+    drawings of parts and subassemblies of a large assembly, corrections to the design documentation and
+    rework of the models in SolidWorks. Design work covered the linear-bearing and THK rail assembly for
+    repeatability and stiffness, encoder and carriage changes and surface-treatment requirements, followed by
+    documentation for bearing replacement and acceptance tests until the end of 2024.</p>
+<div class="shots">
+<figure class="shot"><img alt="Linear system model" loading="lazy" src="media/img/clients/jabil-linear-cad.jpg"/><figcaption>Linear guide and carriage arrangement</figcaption></figure>
+<figure class="shot"><img alt="Linear system detail" loading="lazy" src="media/img/clients/jabil-linear-photo.jpg"/><figcaption>Detail of the rail and carriage set</figcaption></figure>
+</div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>AGOR — pool-to-deck hydraulic platforms</h3></div>
+<p class="loc">Dec 2022 – Mar 2024 · partly at the AGOR office · a family of models P212 – P258</p>
+<ul class="stack"><li>hydraulic cylinders</li><li>transforming stair</li><li>steel frame</li><li>Motion Study</li><li>production files</li></ul>
+<p>A hydraulically actuated platform and a transforming stair share one compact pool envelope: a
+    walkable deck when the pool is closed, an accessible stair in pool mode. One standard structure was
+    adapted to a family of pool sizes, each with its own model, drawing package and production files.</p>
+<div class="films">
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/agor-transformation.jpg" preload="none" src="media/video/agor-transformation.mp4"></video><figcaption>Motion study: pool mode to deck</figcaption></figure>
+</div>
+<div class="shots">
+<figure class="shot"><img alt="AGOR platform in pool mode" loading="lazy" src="media/img/clients/agor-pool-mode.jpg"/><figcaption>Pool mode</figcaption></figure>
+<figure class="shot"><img alt="AGOR platform in floor mode" loading="lazy" src="media/img/clients/agor-floor-mode.jpg"/><figcaption>Floor mode</figcaption></figure>
+<figure class="shot"><img alt="AGOR technical drawing" loading="lazy" src="media/img/clients/agor-drawing.jpg"/><figcaption>Technical drawing</figcaption></figure>
+</div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>NUF (NUFiltration) — filtration skids</h3></div>
+<p class="loc">Dec 2021 – Feb 2024 · partly at the NUF office</p>
+<ul class="stack"><li>Solid Edge</li><li>RO / UF skids</li><li>process piping</li><li>valves and pumps</li><li>skid framing</li><li>BOM</li></ul>
+<p>The full design documentation in Solid Edge, from the design of compact filtration systems for
+    Israel, Korea and the USA to the production files: filtration stages, transition blocks, piping, pump
+    integration, layout and framing, with full drawing sets and BOMs. The last systems were the NUFilter 6A XB and the 2 m³/h MCM unit for the USA (autumn 2023).</p>
+<div class="shots">
+<figure class="shot"><img alt="NUFilter 6A XB system" loading="lazy" src="media/img/clients/nuf-6a-xb.jpg"/><figcaption>NUFilter 6A XB (2023)</figcaption></figure>
+<figure class="shot"><img alt="2 m3/h MCM unit for the USA" loading="lazy" src="media/img/clients/nuf-2mcm-usa.jpg"/><figcaption>2 m³/h MCM unit for the USA (2023)</figcaption></figure>
+<figure class="shot"><img alt="Skid assembly" loading="lazy" src="media/img/clients/nuf-skid.jpg"/><figcaption>Skid assembly</figcaption></figure>
+<figure class="shot"><img alt="Filter array assembly" loading="lazy" src="media/img/clients/nuf-filter-array.jpg"/><figcaption>Filter array assembly</figcaption></figure>
+</div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>Yaskawa — X/Y/θ wafer-positioning platform</h3></div>
+<p class="loc">Sep 2023 – Sep 2026 · main work 2024 · assembly at Yaskawa, Rosh HaAyin</p>
+<ul class="stack"><li>linear motors</li><li>θ stage</li><li>granite base</li><li>linear encoders</li><li>modal analysis</li></ul>
+<p>A demonstration platform taken through design, assembly, set-up and commissioning: two orthogonal
+    linear-motor axes and a rotary theta stage on a granite base, with bench and chuck drawings, bearing
+    selection, and static and modal analysis.</p>
+<div class="shots">
+<figure class="shot"><img alt="X/Y/theta stage" loading="lazy" src="media/img/clients/yaskawa-xytheta.jpg"/><figcaption>X/Y/θ stage</figcaption></figure>
+<figure class="shot"><img alt="Integrated bench" loading="lazy" src="media/img/clients/yaskawa-bench.jpg"/><figcaption>Integrated bench</figcaption></figure>
+<figure class="shot"><img alt="Bench mode analysis" loading="lazy" src="media/img/clients/yaskawa-modes.jpg"/><figcaption>Bench mode analysis</figcaption></figure>
+</div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>More client work</h3></div>
+<p class="loc">2021 – 2025</p>
+<p><b>Yahav, Hebrew University</b> (2022) — walk-in climate chamber with LED/UV lighting and cooling, partly
+    on site in Jerusalem. <b>Flipper</b> — production machine that flips 150 and 300 mm wafers.
+    <b>OrHot</b> (2023–24) — hand-held plasma device for skin treatment. <b>Revavot</b> — vacuum floor-tile
+    levelling tool with static FEA. <b>FastSense</b> (2025) — gas and pressure sensor sealed to 50 bar.</p>
+<div class="shots">
+<figure class="shot"><img alt="Climate chamber roof with LED and HVAC" loading="lazy" src="media/img/clients/yahav-led-hvac.jpg"/><figcaption>Yahav: LED and HVAC roof</figcaption></figure>
+<figure class="shot"><img alt="Wafer flipper" loading="lazy" src="media/img/clients/flipper-wafers.jpg"/><figcaption>Flipper: 150 / 300 mm wafers</figcaption></figure>
+<figure class="shot"><img alt="Plasma handpiece cutaway" loading="lazy" src="media/img/clients/orhot-cutaway.jpg"/><figcaption>OrHot: handpiece cutaway</figcaption></figure>
+<figure class="shot"><img alt="Vacuum tool installed" loading="lazy" src="media/img/clients/revavot-installed.jpg"/><figcaption>Revavot: prototype installed</figcaption></figure>
+<figure class="shot"><img alt="Static stress analysis" loading="lazy" src="media/img/clients/revavot-fea.jpg"/><figcaption>Revavot: static stress analysis</figcaption></figure>
+<figure class="shot"><img alt="Sealed sensor cross-section" loading="lazy" src="media/img/clients/fasuta-section.jpg"/><figcaption>FastSense: sealed sensor section</figcaption></figure>
+</div>
+</div>
+</section>
+<section class="block" id="counter-uas">
+<span class="sec-num">02</span>
+<h2>Counter-UAS: detection and capture</h2>
+<p class="lede">Two sides of one problem, as own work: finding a small drone in the sky with cameras,
+  and a hand-held launcher designed to bring one down with a net.</p>
+<div class="proj">
+<div class="proj-head"><h3>DroneVision — two-camera drone detection on Jetson</h3></div>
+
+<ul class="stack"><li>YOLO11n · 2.6 M parameters</li><li>own dataset</li><li>seven training stages</li>
+<li>2× USB camera</li><li>NVIDIA Jetson deployment</li><li>desktop launcher</li></ul>
+<p>A small detector trained on my own footage in seven stages, then deployed to an NVIDIA Jetson with a
+    desktop launcher. Two cameras watch the same sky; the status line reports how many drones are in view
+    and which camera sees them, with detection running at 13–50 frames per second.</p>
+<p>Final validation on 817 images with 592 drones: precision 0.92, recall 0.85, mAP50 0.90,
+    mAP50-95 0.65, and about 1 ms of inference per image on the training GPU. Recorded outdoors against a
+    mixed sky with trees, rooftops and sun glare — the conditions that make small targets hard.</p>
+<div class="films"><figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/drone-detection-stereo.jpg" preload="none" src="media/video/drone-detection-stereo.mp4"></video><figcaption>Two cameras, one drone: detected by both and marked in red</figcaption></figure></div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>NET-01 — disposable drone-net launcher</h3></div>
+
+<ul class="stack"><li>SOLIDWORKS 2025</li><li>15 parts · 20-component assembly</li><li>12 g CO₂ cartridge</li>
+<li>2 × 2 m net · 50 mm mesh</li><li>clash audit, revision B</li></ul>
+<p>A one-shot, hand-held pneumatic launcher that throws a 2 × 2 m net at a small drone 3.5–8 m away.
+    The trigger pierces a 12 g CO₂ cartridge, the gas fills a receiver, and drives the packed net and its four
+    22 g weights out of the barrel at about 22 m/s.</p>
+<p>The design basis came first, then the model: gas energy about 60–75 J, total mass 530 g. A clash audit
+    of revision B took the assembly from 19 interferences to none. This is a design study — modelled and
+    checked on screen, not yet built or fired.</p>
+<div class="shots"><figure class="shot"><img alt="NET-01 SOLIDWORKS assembly, isometric" loading="lazy" src="media/img/counter-uas/net-01-cad-iso.jpg"/><figcaption>SOLIDWORKS assembly, isometric</figcaption></figure>
+<figure class="shot"><img alt="Front view with the packed net and its four weights" loading="lazy" src="media/img/counter-uas/net-01-cad-side.jpg"/><figcaption>Front view: the packed net and its four weights</figcaption></figure>
+<figure class="shot"><img alt="Cutaway with the three phases of net deployment" loading="lazy" src="media/img/counter-uas/net-01-section.svg"/><figcaption>Cutaway: the parts and the three phases of net deployment</figcaption></figure></div>
+</div>
+</section>
+<section class="block" id="robotics">
+<span class="sec-num">03</span>
+<h2>Robotics and autonomous platforms</h2>
+<p class="lede">Three platforms at different scales: a large rover on hoverboard hub motors, a small
+  Raspberry Pi robot, and a vineyard platform with a manipulator.</p>
+<div class="proj">
+<div class="proj-head"><h3>4×4 rover with a collaborative arm</h3></div>
+
+<ul class="stack">
+<li>2× hoverboard hub motor, FOC</li><li>STM32F103RC</li><li>Pix32 V5 / ArduPilot Rover</li>
+<li>Raspberry Pi 5 · Ubuntu 24.04</li><li>ROS 2 Jazzy</li><li>SLAM Toolbox + Nav2</li>
+<li>Oradar MS200 LiDAR</li><li>NEO-M8U GPS</li><li>WITMotion BWT61CL IMU</li>
+</ul>
+<p>Hybrid drive control: PWM from the flight controller plus UART from the Raspberry Pi,
+    switching over when either channel fails. A separate strand of the work is reverse
+    engineering the hoverboard controllers: identifying the microcontroller from the board
+    silkscreen (GD32F130C6T6 on a PHC-018), pinout maps, SWD and UART wiring diagrams, and a
+    firmware backup procedure to run before any write.</p>
+<p>The SINGLE+UART builds for 10S and 7S compile cleanly. No board has been flashed and 42 V
+    has never been applied — the work was deliberately stopped at the verification stage until
+    the connector pinout is confirmed.</p>
+<div class="films">
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/rover-arm-reach.jpg" preload="none" src="media/video/rover-arm-reach.mp4"></video><figcaption>Arm at full reach during a drive-out</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/rover-uneven-ground.jpg" preload="none" src="media/video/rover-uneven-ground.mp4"></video><figcaption>Driving over uneven ground and paving</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/rover-threshold.jpg" preload="none" src="media/video/rover-threshold.mp4"></video><figcaption>Crossing the threshold on the way out of the building</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/rover-full-run.jpg" preload="none" src="media/video/rover-full-run.mp4"></video><figcaption>A long run across the yard</figcaption></figure>
+</div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>Vineyard platform</h3></div>
+
+<ul class="stack">
+<li>IIMT/EMT cobot, 5 kg · 900 mm</li><li>10″ hub motors</li><li>ROS · gmapping · imu_ws</li>
+<li>TCP socket control</li><li>6-DoF pose datasets</li>
+</ul>
+<p>A mobile platform with a collaborative arm for work inside a vine row: frame and chassis,
+    controller cabinet, lidar and antenna brackets, and a gripper designed in house. Footage
+    shot in a real vineyard gives the vision work its target scene — dormant vines, where the
+    trunk, the canes and the trellis have to be told apart.</p>
+<div class="films">
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/vine-concept.jpg" preload="none" src="media/video/vine-concept.mp4"></video><figcaption>Concept animation: the platform with its arm inside a row</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/vine-real-canes.jpg" preload="none" src="media/video/vine-real-canes.mp4"></video><figcaption>A real vineyard, dormant vines — the target scene</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/vine-field-rig.jpg" preload="none" src="media/video/vine-field-rig.mp4"></video><figcaption>Filming the trellis for the cane dataset</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/vine-robot-in-row.jpg" preload="none" src="media/video/vine-robot-in-row.mp4"></video><figcaption>The platform and its arm inside a real vine row</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/vine-cane-detection.jpg" preload="none" src="media/video/vine-cane-detection.mp4"></video><figcaption>Cane detection: points along each cane, with the depth mask beside it</figcaption></figure>
+</div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>Small robot and the ROSCar PWA</h3></div>
+
+<ul class="stack"><li>Raspberry Pi 5</li><li>ROS 2 Jazzy</li><li>rosbridge</li><li>PWA, no App Store</li></ul>
+<p>The control and telemetry web interface is served by the robot itself, with a hand-written
+    rosbridge client. It works from an iPhone or iPad through the browser. Profiles exist for
+    several platforms, including a sensors-only mode for the Jetson AGX where publishing motion
+    commands is disabled until the drives are deliberately connected.</p>
+<div class="films"><figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/small-robot-course.jpg" preload="none" src="media/video/small-robot-course.mp4"></video><figcaption>An obstacle course outdoors, with the lidar map live on the laptop</figcaption></figure></div>
+<div class="shots"><figure class="shot"><img alt="The ROSCar PWA connected to the robot" loading="lazy" src="media/img/07_apps__pi-camera-dock-check.png"/><figcaption>The ROSCar PWA connected to the robot</figcaption></figure></div>
+</div>
+</section>
+<section class="block" id="vision">
+<span class="sec-num">04</span>
+<h2>Computer vision</h2>
+<p class="lede">Capture, calibration, detection, and turning a pixel target into robot coordinates — plus
+  one discipline hobby projects almost always skip: safety interlocks.</p>
+<div class="proj">
+<div class="proj-head"><h3>Cup-Pick GUI with safety interlocks</h3></div>
+
+<ul class="stack"><li>PySide6</li><li>YOLO segmentation</li><li>Orbbec Astra Pro</li>
+<li>OpenNI2</li><li>hand-eye</li><li>EMT/IIMT cobot</li></ul>
+<p>The pipeline: YOLO object detection, segmentation mask, depth at the target point, conversion
+    into three-dimensional camera coordinates and then into robot base coordinates through the
+    hand-eye matrix, generation of approach, grasp and retreat poses, and execution on the cobot.</p>
+<p>The application starts with the camera and the robot disconnected, the robot in simulation,
+    and motion forbidden. The arm cannot move until the operator connects it, turns simulation
+    off, works through a ten-point checklist and ticks the motion-enable box. A second version
+    is the same interface with the camera layer swapped for a stereo pair; 24 of 24 tests pass.</p>
+<p>The limitations are stated rather than hidden: the Astra Pro has no hardware registration
+    between the colour frame and the depth map — colour arrives over UVC, depth over OpenNI2,
+    two independent buses; the hand-eye calibration is not finished; and the stereo calibration
+    was inherited from a different pair of cameras.</p>
+<div class="shots"><figure class="shot"><img alt="The Cup-Pick GUI running on the stereo backend" loading="lazy" src="media/img/07_apps__fullscreen_after_foreground_20260624_142704.png"/><figcaption>The Cup-Pick GUI running on the stereo backend</figcaption></figure>
+<figure class="shot"><img alt="Depth-map check window" loading="lazy" src="media/img/07_apps__gui_window_depth_check_20260624_141340_1.png"/><figcaption>Depth-map check window</figcaption></figure>
+<figure class="shot"><img alt="Stereo pair verification frame" loading="lazy" src="media/img/07_apps__stereo_check_20260624_115716_rgb.png"/><figcaption>Stereo pair verification frame</figcaption></figure></div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>Stereo depth on the Jetson AGX Xavier</h3></div>
+
+<ul class="stack"><li>2× USB camera</li><li>OpenCV rectify</li><li>StereoSGBM</li>
+<li>JetPack 5.1.6</li><li>7×7 checkerboard · 28 mm</li><li>baseline ≈103 mm</li></ul>
+<p>Passive stereo is the only option that works outdoors: active depth, both structured light
+    and ToF, goes blind in direct sun. Calibration on a 7×7 checkerboard with a 28 mm pitch, a
+    baseline of about 103 mm, streaming 640×480 at 30 frames per second. Classical SGBM is
+    confirmed on the Jetson; the trained model under TensorRT is not integrated yet — an open
+    item, not a finished result.</p>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>Detection, datasets and CAD-based inspection</h3></div>
+
+<ul class="stack"><li>Ultralytics YOLOv8/9/11</li><li>YOLOv5</li><li>RealSense L515</li>
+<li>Open3D ICP</li><li>Basler · FLIR · IDS · Zivid · GenICam</li><li>TCP I/O</li></ul>
+<p>The whole model lifecycle in one interface: frame capture, labelling, dataset splitting,
+    training, live detection with a virtual line-crossing counter, and a panel for an external
+    I/O controller over TCP. Separately, inspection of a real assembly against its reference CAD
+    model: a point cloud from a RealSense L515, mesh loading, an inspection scheme generated
+    automatically from the CAD, and comparison through ICP.</p>
+<div class="films"><figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/yolo-bolt-detection.jpg" preload="none" src="media/video/yolo-bolt-detection.mp4"></video><figcaption>In-house YOLO model: fastener detection, class BOLT</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/vision-leaf-detector.jpg" preload="none" src="media/video/vision-leaf-detector.mp4"></video><figcaption>Annotated detector output on the foliage rig</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/vision-cad-inspection.jpg" preload="none" src="media/video/vision-cad-inspection.mp4"></video><figcaption>VisionPR: a live part checked against its CAD model — holes and dimensions</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/vision-pose-estimation.jpg" preload="none" src="media/video/vision-pose-estimation.mp4"></video><figcaption>Pose estimation of loose parts on a mat: position and rotation of each part</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/vision-tracking-arm.jpg" preload="none" src="media/video/vision-tracking-arm.mp4"></video><figcaption>Following a target with a 3D-printed pan-tilt arm</figcaption></figure></div>
+<div class="shots"><figure class="shot"><img alt="The CAD model projected onto a live frame" loading="lazy" src="media/img/07_apps__cad_projection_overlay.png"/><figcaption>The CAD model projected onto a live frame</figcaption></figure>
+<figure class="shot"><img alt="CAD inspection result" loading="lazy" src="media/img/07_apps__inspection_frame.png"/><figcaption>CAD inspection result</figcaption></figure>
+<figure class="shot"><img alt="YOLO training curves" loading="lazy" src="media/img/07_apps__results.png"/><figcaption>YOLO training curves</figcaption></figure>
+<figure class="shot"><img alt="Camera intrinsic calibration" loading="lazy" src="media/img/03_vision_datasets__calibration_0001__ab30d65c_f2.jpg"/><figcaption>Camera intrinsic calibration</figcaption></figure></div>
+</div>
+</section>
+<section class="block" id="cad">
+<span class="sec-num">05</span>
+<h2>Mechanical design, CAD and analysis</h2>
+<p class="lede">An agrivoltaic tracker built in the field, modal analysis of a precision stage, and a gripper
+  taken from its first version through to its seventh.</p>
+<div class="proj">
+<div class="proj-head"><h3>Agrivoltaic tracker</h3></div>
+
+<p>A dual-axis tracking structure carrying mirrors above a farm field: erected on site, with
+    assembly time-lapses, drive joints, and a trial plot growing a crop beneath the array.</p>
+<div class="films"><figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/agrivolt-tracker.jpg" preload="none" src="media/video/agrivolt-tracker.mp4"></video><figcaption>The tracker assembled in the field — time-lapse</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/agrivolt-drive-joint.jpg" preload="none" src="media/video/agrivolt-drive-joint.mp4"></video><figcaption>Drive joint and mirror support</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/agrivolt-structure-anim.jpg" preload="none" src="media/video/agrivolt-structure-anim.mp4"></video><figcaption>Structure animation with the rail shuttle</figcaption></figure></div>
+<div class="shots"><figure class="shot"><img alt="Erecting the structure on site" loading="lazy" src="media/img/05_agrivoltaics__IMG_20250407_140825.jpg"/><figcaption>Erecting the structure on site</figcaption></figure>
+<figure class="shot"><img alt="An assembled joint during erection" loading="lazy" src="media/img/05_agrivoltaics__G0446595.JPG"/><figcaption>An assembled joint during erection</figcaption></figure>
+<figure class="shot"><img alt="A crop row beneath the array" loading="lazy" src="media/img/05_agrivoltaics__IMG_20250303_163152.jpg"/><figcaption>A crop row beneath the array</figcaption></figure></div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>Precision stage: modal and static analysis</h3></div>
+
+<p>Modal analysis with mode shapes at 210 and 325 Hz, static displacements along X and Y, and a
+    study of cross-axis coupling.</p>
+<div class="films"><figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/fea-modal-mode1.jpg" preload="none" src="media/video/fea-modal-mode1.mp4"></video><figcaption>First mode shape, 210 Hz</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/fea-modal-mode2.jpg" preload="none" src="media/video/fea-modal-mode2.mp4"></video><figcaption>Second mode shape, 325 Hz</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/fea-static-dispx.jpg" preload="none" src="media/video/fea-static-dispx.mp4"></video><figcaption>Static displacement along X</figcaption></figure>
+<figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/machine-motion-study.jpg" preload="none" src="media/video/machine-motion-study.mp4"></video><figcaption>Machine motion study</figcaption></figure></div>
+<div class="shots"><figure class="shot"><img alt="Mode shape of the precision stage" loading="lazy" src="media/img/06_mech_analysis__Modal_analysis-4nd_frequency__f99c3159_f2.jpg"/><figcaption>Mode shape of the precision stage</figcaption></figure></div>
+</div>
+<div class="proj">
+<div class="proj-head"><h3>Parallel gripper, versions V1 → V7</h3></div>
+
+<p>Seven finger iterations, sector gears driven by a servo, replaceable grip-textured pads, and
+    base plates. Every version went to the printer and was fitted before the next one.</p>
+<div class="films"><figure class="film"><video controls="" loop="" muted="" playsinline="" poster="media/video/gripper-cad-study.jpg" preload="none" src="media/video/gripper-cad-study.mp4"></video><figcaption>Two-finger gripper assembled with its servo</figcaption></figure></div>
+</div>
+</section>
+<section class="block" id="software">
+<span class="sec-num">06</span>
+<h2>Software, embedded and other work</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>Project</th><th>What it is</th></tr></thead>
+<tbody>
+<tr><td>Jetson AGX Xavier</td><td>a study of moving the platform off the Raspberry Pi: JetPack 5.1.6 against ROS 2 Jazzy, the hybrid arrangement, and a record of the real bring-up</td></tr>
+<tr><td>EngineeringVisualLibrary</td><td>an offline visual engineering reference: diagram, formula, meaning, variables, controls, result. Original SVG, formula sources cited, no dependencies at all</td></tr>
+<tr><td>Marker tracker</td><td>bright-marker tracking: HSV plus a Kalman filter, UDP telemetry, Arduino servos</td></tr>
+<tr><td>RobotArmGUI · Drawing Robot</td><td>a six-servo Arduino arm with position recording; a three-axis stepper drawing robot on RAMPS and a CNC Shield</td></tr>
+<tr><td>orbbec_astra_pro_demo</td><td>camera diagnostics under Windows: OpenNI2, point cloud, driver state and PnP</td></tr>
+<tr><td>BallsWaveGearingGenerator</td><td>a generator for strain-wave gearing with rolling elements</td></tr>
+<tr><td>TEST PSB</td><td>battery and BMS testing: the I2C protocol on an ISL94202, charge, discharge and thermal plans</td></tr>
+<tr><td>HebrewLearningApp · FinanceOS</td><td>an offline Hebrew learning app; a personal finance app</td></tr>
+</tbody>
+</table></div>
+
+
+</section>
+</div>
+<footer class="site"><div class="wrap"><p>Alexander Nimenko · mechanical design engineer · <a href="mailto:ledmax.od@gmail.com">ledmax.od@gmail.com</a> · <a href="https://www.linkedin.com/in/alex-nimenko-826a76214">LinkedIn</a> · <a href="https://github.com/Alexsensytiv">GitHub</a></p></div></footer>
+</body>
+</html>

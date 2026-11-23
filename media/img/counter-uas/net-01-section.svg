@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="1200" viewBox="0 0 1780 1200">
+<defs><style>
+.bg{fill:#f5f7fa}
+.title{font:700 40px Arial;fill:#1f2937}
+.sub{font:21px Arial;fill:#64748b}
+.h3{font:700 22px Arial;fill:#1f2937}
+.leg{font:18px Arial;fill:#334155}
+.cap{font:17px Arial;fill:#475569}
+.capb{font:700 18px Arial;fill:#1f2937}
+.body{fill:#dfe5ec;stroke:#3f4b59;stroke-width:4}
+.bodycut{fill:#eef2f7;stroke:#5b6876;stroke-width:3}
+.metal{fill:#9fb0c2;stroke:#2f3a46;stroke-width:3}
+.gas{fill:#2b6cb0;stroke:#173f6b;stroke-width:3}
+.weight{fill:#d6534d;stroke:#7d2b27;stroke-width:3}
+.netfill{fill:#ffffff;stroke:#2b6cb0;stroke-width:3}
+.netline{fill:none;stroke:#2b6cb0;stroke-width:2.5}
+.sleeve{fill:none;stroke:#8b5cf6;stroke-width:3;stroke-dasharray:9 6}
+.thin{fill:none;stroke:#526171;stroke-width:4}
+.lead{fill:none;stroke:#8494a6;stroke-width:2}
+.tag{fill:#2b6cb0}
+.tagn{font:700 16px Arial;fill:#fff;text-anchor:middle}
+.frame{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+.rotor{fill:none;stroke:#1f2937;stroke-width:3}
+.droneb{fill:#3f4b59;stroke:#1f2937;stroke-width:3}
+.arrow{stroke:#2b6cb0;stroke-width:4;marker-end:url(#ah)}
+.hot{stroke:#d6534d;stroke-width:4;marker-end:url(#ar)}
+</style>
+<marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2b6cb0"/></marker>
+<marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d6534d"/></marker>
+</defs>
+<rect width="1780" height="1200" class="bg"/>
+<text x="60" y="62" class="title">NET-01 · Миниатюрная пусковая сетки против дрона</text>
+<text x="60" y="100" class="sub">Разрез. Одноразовое исполнение, 1–2 баллона CO2 12 г, сетка 2×2 м, дальность раскрытия 3.5–8 м</text>
+<line x1="60" y1="122" x2="1720" y2="122" stroke="#cbd5e1" stroke-width="2"/>
+
+<!-- receiver -->
+<rect x="280" y="330" width="152" height="148" rx="12" class="body"/>
+<rect x="300" y="352" width="112" height="104" rx="8" class="metal"/>
+<!-- barrel -->
+<rect x="430" y="345" width="580" height="118" rx="8" class="body"/>
+<rect x="437" y="357" width="566" height="94" rx="4" class="bodycut"/>
+<!-- muzzle cap -->
+<rect x="1000" y="336" width="96" height="136" rx="10" class="body"/>
+<path d="M1096 358 L1156 316 M1096 380 L1156 352 M1096 428 L1156 456 M1096 450 L1156 492" class="thin"/>
+<!-- retention lip -->
+<path d="M536 357 v20 M536 451 v-20" stroke="#2f3a46" stroke-width="7" fill="none"/>
+<!-- sabot -->
+<rect x="470" y="360" width="56" height="88" rx="5" class="metal"/>
+<circle cx="470" cy="368" r="7" class="gas"/><circle cx="470" cy="440" r="7" class="gas"/>
+<!-- net pack -->
+<rect x="546" y="360" width="386" height="88" rx="4" class="netfill"/>
+<path d="M556 360 l20 88 M596 360 l20 88 M636 360 l20 88 M676 360 l20 88 M716 360 l20 88 M756 360 l20 88 M796 360 l20 88 M836 360 l20 88 M876 360 l20 88 M916 360 l16 70" class="netline"/>
+<rect x="542" y="356" width="394" height="96" rx="6" class="sleeve"/>
+<!-- weights in muzzle channels -->
+<circle cx="962" cy="378" r="14" class="weight"/><circle cx="962" cy="430" r="14" class="weight"/>
+<circle cx="1040" cy="372" r="14" class="weight"/><circle cx="1040" cy="436" r="14" class="weight"/>
+<!-- orifice + gas path -->
+<path d="M412 404 H470" class="hot"/>
+<!-- grip -->
+<path d="M282 478 H430 L406 812 H272 Z" class="body"/>
+<rect x="300" y="512" width="34" height="182" rx="17" class="gas"/>
+<rect x="344" y="512" width="34" height="182" rx="17" class="gas"/>
+<rect x="310" y="496" width="14" height="18" class="metal"/><rect x="354" y="496" width="14" height="18" class="metal"/>
+<!-- piercing pin + spring -->
+<rect x="332" y="470" width="16" height="42" class="metal"/>
+<path d="M340 466 l-14 -8 l28 -8 l-28 -8 l28 -8 l-14 -6" class="thin"/>
+<!-- trigger + guard + safety -->
+<path d="M282 520 q-44 52 4 100" class="thin"/>
+<path d="M300 526 L288 588" stroke="#2f3a46" stroke-width="9" fill="none"/>
+<rect x="288" y="482" width="52" height="14" rx="7" class="weight"/>
+<!-- sight -->
+<circle cx="1048" cy="300" r="24" fill="none" stroke="#2f3a46" stroke-width="5"/>
+<path d="M1048 324 v12" class="thin"/>
+<path d="M462 300 v42" stroke="#2f3a46" stroke-width="6" fill="none"/>
+<!-- callouts -->
+<path d="M640 273 V345 M1120 229 L1100 336 M962 273 V364 M740 273 V360 M860 229 L880 356 M498 273 V360 M560 229 L540 357 M420 229 L424 398 M300 273 L320 352 M195 692 L300 660 M195 522 L336 492 M195 552 L288 558 M195 440 L296 486 M1148 282 L1074 300" class="lead"/>
+<g><circle cx="640" cy="258" r="15" class="tag"/><text x="640" y="264" class="tagn">1</text></g>
+<g><circle cx="1120" cy="214" r="15" class="tag"/><text x="1120" y="220" class="tagn">2</text></g>
+<g><circle cx="962" cy="258" r="15" class="tag"/><text x="962" y="264" class="tagn">3</text></g>
+<g><circle cx="740" cy="258" r="15" class="tag"/><text x="740" y="264" class="tagn">4</text></g>
+<g><circle cx="860" cy="214" r="15" class="tag"/><text x="860" y="220" class="tagn">5</text></g>
+<g><circle cx="498" cy="258" r="15" class="tag"/><text x="498" y="264" class="tagn">6</text></g>
+<g><circle cx="560" cy="214" r="15" class="tag"/><text x="560" y="220" class="tagn">7</text></g>
+<g><circle cx="420" cy="214" r="15" class="tag"/><text x="420" y="220" class="tagn">8</text></g>
+<g><circle cx="300" cy="258" r="15" class="tag"/><text x="300" y="264" class="tagn">9</text></g>
+<g><circle cx="180" cy="692" r="15" class="tag"/><text x="180" y="698" class="tagn">10</text></g>
+<g><circle cx="180" cy="522" r="15" class="tag"/><text x="180" y="528" class="tagn">11</text></g>
+<g><circle cx="180" cy="552" r="15" class="tag"/><text x="180" y="558" class="tagn">12</text></g>
+<g><circle cx="180" cy="440" r="15" class="tag"/><text x="180" y="446" class="tagn">13</text></g>
+<g><circle cx="1160" cy="272" r="15" class="tag"/><text x="1160" y="278" class="tagn">14</text></g>
+<!-- legend -->
+<text x="1200" y="196" class="h3">Состав</text>
+<text x="1200" y="234" class="leg">1 · Ствол Ø48×220, PETG или PA12-CF, стенка 3.5 мм</text>
+<text x="1200" y="272" class="leg">2 · Дульная насадка, 4 разгонных скоса 22°, съёмная</text>
+<text x="1200" y="310" class="leg">3 · Грузики 4×22 г в каналах насадки, носок TPU</text>
+<text x="1200" y="348" class="leg">4 · Пакет сетки 2×2 м, Z-укладка, ячейка 50 мм</text>
+<text x="1200" y="386" class="leg">5 · Легкоразрывной чехол, PE 0.35 мм, перфорация</text>
+<text x="1200" y="424" class="leg">6 · Сабо-толкатель 15 г с манжетой O-ring</text>
+<text x="1200" y="462" class="leg">7 · Удерживающий буртик: срыв при 4 ± 0.5 бар</text>
+<text x="1200" y="500" class="leg">8 · Сопло Ø3.5 мм в дно ствола</text>
+<text x="1200" y="538" class="leg">9 · Ресивер: алюминиевая гильза + мембрана 15 бар</text>
+<text x="1200" y="576" class="leg">10 · Баллон CO2 12 г ×2, второй — холод и резерв</text>
+<text x="1200" y="614" class="leg">11 · Пробойник Ø4 с возвратной пружиной</text>
+<text x="1200" y="652" class="leg">12 · Спуск: крючок, сеар из стали 1.5 мм, ось</text>
+<text x="1200" y="690" class="leg">13 · Предохранительная чека с красным флажком</text>
+<text x="1200" y="728" class="leg">14 · Кольцевой прицел Ø50 на базе 150 мм</text>
+<text x="1200" y="778" class="cap">Красная стрелка — путь газа от баллона</text>
+<text x="1200" y="804" class="cap">через сопло 8 в заснарядное пространство.</text>
+<text x="60" y="856" class="h3">Раскрытие: три фазы</text>
+<rect x="60" y="872" width="460" height="300" rx="14" class="frame"/>
+<rect x="570" y="872" width="460" height="300" rx="14" class="frame"/>
+<rect x="1080" y="872" width="460" height="300" rx="14" class="frame"/>
+<text x="84" y="906" class="capb">1 · t = 0…20 мс, путь 0…0.2 м</text>
+<text x="594" y="906" class="capb">2 · t ≈ 60 мс, дальность ≈ 1.3 м</text>
+<text x="1104" y="906" class="capb">3 · t ≈ 160 мс, дальность ≈ 3.5 м</text>
+<text x="84" y="1152" class="cap">Сабо разгоняет пакет до 22 м/с, чехол цел</text>
+<text x="594" y="1152" class="cap">Чехол рвётся, грузики расходятся по конусу 22°</text>
+<text x="1104" y="1152" class="cap">Сетка 2×2 м раскрыта и накрывает дрон</text>
+<!-- phase 1 -->
+<rect x="96" y="985" width="118" height="54" rx="8" class="body"/>
+<path d="M120 1039 L104 1104 H150 Z" class="body"/>
+<rect x="222" y="980" width="96" height="64" rx="6" class="netfill"/>
+<rect x="218" y="976" width="104" height="72" rx="8" class="sleeve"/>
+<circle cx="330" cy="994" r="9" class="weight"/><circle cx="330" cy="1030" r="9" class="weight"/>
+<path d="M352 1012 H452" class="arrow"/>
+<!-- phase 2 -->
+<circle cx="742" cy="962" r="10" class="weight"/><circle cx="862" cy="962" r="10" class="weight"/>
+<circle cx="742" cy="1062" r="10" class="weight"/><circle cx="862" cy="1062" r="10" class="weight"/>
+<path d="M742 962 L862 962 L862 1062 L742 1062 Z" class="netline"/>
+<path d="M772 962 V1062 M802 962 V1062 M832 962 V1062 M742 992 H862 M742 1022 H862" class="netline"/>
+<path d="M690 940 q-34 26 -8 62" class="sleeve"/><path d="M912 940 q34 26 8 62" class="sleeve"/>
+<path d="M628 1012 H700" class="arrow"/>
+<!-- phase 3 -->
+<path d="M1218 1030 L1310 938 L1402 1030 L1310 1122 Z" fill="none" stroke="#2b6cb0" stroke-width="5"/>
+<path d="M1241 1053 L1333 961 M1264 1076 L1356 984 M1287 1099 L1379 1007 M1241 1007 L1333 1099 M1264 984 L1356 1076 M1287 961 L1379 1053" class="netline"/>
+<circle cx="1218" cy="1030" r="12" class="weight"/><circle cx="1310" cy="938" r="12" class="weight"/>
+<circle cx="1402" cy="1030" r="12" class="weight"/><circle cx="1310" cy="1122" r="12" class="weight"/>
+<rect x="1288" y="1018" width="44" height="24" rx="7" class="droneb"/>
+<path d="M1288 1022 L1262 1000 M1332 1022 L1358 1000 M1288 1038 L1262 1060 M1332 1038 L1358 1060" class="thin"/>
+<circle cx="1262" cy="1000" r="13" class="rotor"/><circle cx="1358" cy="1000" r="13" class="rotor"/>
+<circle cx="1262" cy="1060" r="13" class="rotor"/><circle cx="1358" cy="1060" r="13" class="rotor"/>
+</svg>
